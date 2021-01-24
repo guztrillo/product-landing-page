@@ -16,14 +16,13 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-     font-size: 2em;
+     font-size: 3rem;
      margin: 20px;
 }
 
 #header {
      width: 100%;
      min-height: 80px;
-     position: fixed;
      overflow: hidden;
      padding: 0 20px;
      top: 0;
@@ -48,7 +47,7 @@ h2 {
      max-height: 80px;
 }
 #nav-bar {
-     width: 40%;
+     width: 60%;
      padding: 10px;
 }
 
@@ -63,23 +62,16 @@ h2 {
      display: inline-block;
      text-decoration: none;
      font-weight: bold;
+     font-size: 1rem;
 }
 
-.nav-link {
-     font-size: 2vw;
-}
-.footer-link {
-     font-size: 1em;
-}
 
 #formulario {
      width: 100%;
      text-align: center;
-     margin-top: 10%;
      display: flex;
      flex-direction: column;
 }
-
 input {
      font-family: 'Manrope', sans-serif;
 }
@@ -260,9 +252,6 @@ input {
      #footer .links {
           width: 50%;
      }
-     #formulario {
-          margin-top: 20%;
-     }
      #footer {
           width: 100%;
      }
@@ -274,9 +263,6 @@ input {
           flex-direction: column;
           align-items: center;
           justify-content: space-between;
-     }
-     .nav-link {
-          font-size: 2.5vw;
      }
 }
 
@@ -293,35 +279,34 @@ input {
      .links {
           margin-top: 10px;
      }
-     .nav-link {
-          font-size: 3vw;
-     }
      #nav-bar {
           width: 100%;
           padding: 0;
           margin: 0 0 10px 0;
      }
      #formulario {
-          margin-top: 35%;
+          margin-top: 5%;
+     }
+     h2 {
+          font-size: 2.5rem;
      }
      #features {
           margin: 5% auto 0 auto;
      }
      .feature {
           width: 100%;
-     }
-}
-
-@media only screen and (max-width: 600px) {
-     .feature {
           flex-direction: column;
           justify-content: center;
           align-items: center;
      }
-     
      .desc {
           width: 100%;
           text-align: center;
+          margin-left: 20px;
+          margin-right: 20px;
+     }
+     .desc p {
+          margin: auto 30px;
      }
      .icon {
           width: 20%;
