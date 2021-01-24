@@ -314,6 +314,9 @@ input {
      #footer .links {
           width: 70%;
      }
+     .nav-link, .footer-link {
+          font-size: 1.25rem;
+     }
 }
 
 
